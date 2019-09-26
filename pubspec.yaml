@@ -23,6 +23,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  scoped_model:
 
 dev_dependencies:
   flutter_test:
@@ -43,7 +44,7 @@ flutter:
   - images/me6.jpeg
   - images/rain_bg.jpeg
   - images/stiring_bg.jpeg
-  - images/watch_bg.jpeg
+  - images/watch_bg.jpg
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

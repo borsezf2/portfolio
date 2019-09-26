@@ -23,7 +23,7 @@ Widget BGimage(context)
   return Container(
     width:  MediaQuery.of(context).size.height,
     height: MediaQuery.of(context).size.height,
-    child: Image.asset("images/rain_bg.jpeg")
+    child: Image.asset("images/rain_bg.jpeg",fit: BoxFit.cover,)
   );
 }
 

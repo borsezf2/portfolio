@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio_web/More/mainPage/itMe.dart';
 import 'package:portfolio_web/More/mainPage/mainImage.dart';
 import 'package:portfolio_web/More/mainPage/main_navs.dart';
+import 'package:portfolio_web/More/mainPage/pageView/pageView.dart';
 
 class MainPageStack extends StatefulWidget {
   @override
@@ -23,12 +23,17 @@ class _MainPageStackState extends State<MainPageStack> {
             alignment: Alignment(-0.7, 0),
             child: MainImage(context),
           ),
+//          Align(
+//            alignment: Alignment(0.7, 0),
+//            child: It_Me(context),
+//          ),
           Align(
-            alignment: Alignment(0.7, 0),
-            child: It_Me(context),
+            alignment: Alignment(0.75, 0),
+            child: PageViewWidget2(context),
           ),
+
           Align(
-            alignment: Alignment(0.7, 0.8),
+            alignment: Alignment(0.7, 0.65),
             child: MainNavs(),
           ),
 
@@ -37,3 +42,5 @@ class _MainPageStackState extends State<MainPageStack> {
     );
   }
 }
+
+
